@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.email = "unclebob@cleancoder.com"
   s.platform = Gem::Platform::RUBY
 
-  s.add_development_dependency 'rspec', '~> 1.3.0'
-  s.add_development_dependency 'rcov'
+  s.add_development_dependency 'rspec', '2.8.0'
+  s.add_development_dependency 'simplecov'
 
   s.files = `git ls-files`.split("\n")
   s.require_path = 'lib'

@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class SimpleScript
   def set_arg(arg)
     @arg = arg

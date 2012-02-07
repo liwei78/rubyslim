@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "rubyslim/slim_error"
 require "rubyslim/statement"
 require "rubyslim/table_to_hash_converter"
@@ -76,6 +77,7 @@ class StatementExecutor
   def require_class(class_name)
     with_each_fully_qualified_class_name(class_name) do |fully_qualified_name|
       begin
+        $: << Dir.pwd
         require make_path_to_class(fully_qualified_name)
         return
       rescue LoadError

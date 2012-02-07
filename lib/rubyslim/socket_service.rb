@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require 'socket'
 require 'thread'
 

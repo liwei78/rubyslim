@@ -1,4 +1,5 @@
-require 'jcode'
+# encoding: UTF-8
+require 'jcode' if RUBY_VERSION.to_f < 1.9
 
 module ListSerializer
   # Serialize a list according to the SliM protocol.
@@ -29,7 +30,7 @@ module ListSerializer
       item = "null" if item.nil?
       item = serialize(item) if item.is_a?(Array)
       item = item.to_s
-      result += length_string(item.jlength)
+      result += length_string(item.length)
       result += item + ":"
     end
 

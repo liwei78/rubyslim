@@ -1,3 +1,4 @@
+# encoding: UTF-8
 module TestModule
   class TestSlimWithNoSut
 

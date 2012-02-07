@@ -1,3 +1,4 @@
+# encoding: UTF-8
 module TestModule
   class LibraryOld
     attr_reader :called

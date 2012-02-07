@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "rubyslim/socket_service"
 require "rubyslim/list_deserializer"
 require "rubyslim/list_serializer"

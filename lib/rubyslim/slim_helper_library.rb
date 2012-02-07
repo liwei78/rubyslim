@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class SlimHelperLibrary
   ACTOR_INSTANCE_NAME = "scriptTableActor"
   attr_accessor :executor

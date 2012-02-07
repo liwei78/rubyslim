@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "rubyslim/statement_executor"
 
 class Statement
